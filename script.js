@@ -40,7 +40,7 @@ function showPosition(position) {
   var key = "a7b6f445d1cc7cbe5ed618e6f45d42a9";
 
   // path to fetch data 
-  var url = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude +"&lon=" + longitude + "&appid=" + key + "";
+  var url = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude +"&lon=" + longitude + "&appid=" + key + "";
 
   // fetching data
   var xmlhttp = new XMLHttpRequest();

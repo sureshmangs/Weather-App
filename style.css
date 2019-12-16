@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+
+body {
+    background-image: url('images/backg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'open sans', cursive;
+}
+
+
+#date, #time {
+    font-family: 'Lilita One', cursive;
+    font-size: 2em;
+    color: #333235;
+}
+
+#temperature {
+    cursor: pointer;
+}
+

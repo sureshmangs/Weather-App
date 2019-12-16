@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="getDate(); getLocation();">
+<div class="container">
+		<div class="row">
+		    <div class="col text-center">
+		    	<p id="date" class="mt-5"></p>
+		    	<p id="time"></p>
+		    </div>
+		</div>
+
+		<div class="row text-center ">
+			<div class="card mx-auto"  style="width: 18rem;">
+		  		  <img class="mx-auto" src="icons/unknown.png" id="iconImg" alt="Card image cap" />
+
+				  <ul class="list-group list-group-flush">
+				  		<li class="list-group-item"></li>
+					    <li class="list-group-item"><p id="temperature" onclick="showFaren();"><b>Temperature:</b></p></li>
+					    <li class="list-group-item"><p id="humidity"><b>Humidity:</b></p></li>
+					    <li class="list-group-item"><p id="description"><b>Description:</b></p></li>
+					    <li class="list-group-item"><p id="location"><b>Location:</b></p></li>
+				  </ul>
+			</div>
+		</div>
+	    		
+</div>
+<br class="mt-5" />
+
+<script src="script.js"></script>
+</body>
+</html>

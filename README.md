@@ -1,4 +1,4 @@
-# Weather App
+# :cloud: Weather App
 
 Link to website [Weather App](https://chckweather.netlify.com/)
 

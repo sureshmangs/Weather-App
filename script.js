@@ -33,8 +33,8 @@ var myObj;
 
 function showPosition(position) {
   // getting latitude and longitude coordinates
-  var latitude = Math.floor(position.coords.latitude);
-  var longitude = Math.floor(position.coords.longitude);
+  var latitude = position.coords.latitude;
+  var longitude = position.coords.longitude;
 
   // key to access OpenWeatherMap API
   var key = "a7b6f445d1cc7cbe5ed618e6f45d42a9";
